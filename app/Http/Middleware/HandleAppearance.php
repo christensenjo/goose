@@ -16,7 +16,8 @@ class HandleAppearance
      */
     public function handle(Request $request, Closure $next): Response
     {
-        View::share('appearance', $request->cookie('appearance') ?? 'system');
+        // Temporarily force light mode for the entire app (overrides cookie)
+        View::share('appearance', 'light'); // View::share('appearance', $request->cookie('appearance') ?? 'system);
 
         return $next($request);
     }
