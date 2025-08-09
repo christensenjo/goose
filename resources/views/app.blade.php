@@ -38,6 +38,23 @@
 
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/aps5mzl.css">
+        {{-- 
+        INSTALLED FONTS:
+            font-family: "instrument-sans-variable", sans-serif;
+            font-variation-settings: "wght" 400, "wdth" 100;
+
+            font-family: "instrument-sans-variable", sans-serif;
+            font-variation-settings: "wdth" 100, "wght" 400;
+
+            font-family: "looking-flowers-caps", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+
+            font-family: "looking-flowers-script", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        --}}
 
         @routes
         @viteReactRefresh
